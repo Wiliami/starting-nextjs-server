@@ -1,3 +1,7 @@
+import Tags from './tags/page'
+
 export default function Home() {
-  return <p>Olá, mundo!</p>
+    return (
+        <Tags />
+    );
 }
